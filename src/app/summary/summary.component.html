@@ -1,0 +1,310 @@
+<app-header></app-header>
+<section class="summary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 main-summary">
+                <div class="information">
+                    <div class="row" style="margin:0px !important;">
+                        <div class="col-lg-4 s1">
+                            <div class="top-heading-summary">
+                                <h4>SUMMARY</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 my-one">
+                            <div class="information-type type2">
+                                <ul>
+                                    <li>
+                                        <img src="assets/images/clock.png">{{summary.estimated_time |timeFormat}}-minute read</li>
+                                    <li [hidden]="summary.audiobook_intro==null"><img src="assets/images/headphone.png" class="audo">Audio available</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-to-think">
+                    <div class="book-info">
+                        <h2>{{summary.name}}</h2>
+                        <p>
+                        <span>by</span> {{summary.author}}
+                            <span>in</span> {{summary.cname}}</p>
+                    </div>
+                    <div class="information-type type1">
+                        <ul>
+                            <li>
+                                <img src="assets/images/clock.png">{{summary.estimated_time |timeFormat}}-minute read</li>
+                            <li>
+                                <img src="assets/images/headphone.png" class="audo">Audio available</li>
+                        </ul>
+                    </div>
+                    <div class="about-book book1">
+                        <img src="{{assetsURl}}/summary_cover/{{summary.summary_cover}}" class="same1">
+                        <div class="summary-text">
+                            <img style="height: 80px; position: absolute; bottom: 0; left: 0;" src="{{assetsURl}}/summary_cover/{{summary.summary_cover}}" class="same">
+                        </div>
+                    </div>
+                    <div class="book-paragraph">
+                        <read-more [fulltext]="summary.short_description"  [font]="fontSize" [maxLength]="150"></read-more>
+                    </div>
+                    <div class="m-player" *ngIf="msaapPlaylist.length > 0">
+                            <!--<gs-player
+  [files]="files">
+</gs-player>-->
+
+                        
+                        <mat-advanced-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="true" muted="muted"
+                            [displayPlaylist]="msaapDisplayPlayList" [pageSizeOptions]="msaapPageSizeOptions" [displayVolumeControls]="msaapDisplayVolumeControls"
+                            [expanded]="false"></mat-advanced-audio-player>
+                    </div>
+                    <div class="download-and-summary">
+                        <div class="row" style="margin:0px !important">
+                            <div class="col-lg-6 for-bd">
+                                <div class="download-app">
+                                    <p>Download our free app:</p>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/images/iphone.png">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/images/android.png">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 for-bd">
+                                <div class="inner-download">
+                                    <p>Download the book summary</p>
+                                    <ul>
+                                        <li [hidden]="summary.audiobook_intro==null">
+                                            <img src="assets/images/mp3.png">
+                                            <a href="{{assetsURl}}/mp3/{{summary.audiobook_intro}}" target="_blank">Download MP3</a>
+                                        </li>
+                                        <li [hidden]="summary.e_book_pdf==null">
+                                            <img src="assets/images/pdf.png">
+                                            <a href="{{assetsURl}}/ebook/{{summary.e_book_pdf}}"  target="_blank">Download PDF</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 new-one">
+                <div class="about-book">
+                    <img src="{{assetsURl}}/summary_cover/{{summary.summary_cover}}" class="same">
+                    <div class="summary-text">
+                       <img style="height: 100px; position: absolute; bottom: 0; left: 0;" src="{{assetsURl}}/summary_cover/{{summary.summary_cover}}" class="same">
+                    </div>
+                </div>
+                <div class="where-from-buy">
+                    <h3>BUY FULL BOOK:</h3>
+                    <div class="buying-sources">
+                        <div class="row">
+                            <div class="col-4 col-lg-3 for-full">
+                                <div class="buying-book">
+                                    <img src="{{assetsURl}}/summary_cover/{{summary.summary_cover}}">
+                                </div>
+                            </div>
+                            <div class="col-8 col-lg-9">
+                                <div class="buying-platform" *ngIf="summary.availableon.amazon">
+                                    <p>paper book</p>
+                                    <a [attr.href]="summary.availableon.amazon" target="_blank" >
+                                        <img src="assets/images/amazon.png" class="amazons-logo">
+                                    </a>
+                                </div>
+                                <div class="buying-platform platform2" *ngIf="summary.availableon.amazonkindle">
+                                    <p>ebook</p>
+                                    <a [attr.href]="summary.availableon.amazonkindle" target="_blank">
+                                        <img src="assets/images/logo-kindle.png" class="amazons-logo kindle">
+                                    </a>
+                                </div>
+                                <div class="buying-platform" *ngIf="summary.availableon.audible">
+                                    <p>audio book</p>
+                                    <a [attr.href]="summary.availableon.audible" target="_blank">
+                                        <img src="assets/images/audible.png" class="amazons-logo audible">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="logoss-slider">
+    <div class="container">
+        <p class="available">Available on:</p>
+        <div class="row">
+            <div class="center slider">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+                (breakpoint)="breakpoint($event)"
+                (afterChange)="afterChange($event)"
+                (beforeChange)="beforeChange($event)">
+                    <div ngxSlickItem *ngFor="let slide of summary.availableon | keyvalue" class="align-top slide" [hidden]="slide.value==null">
+                        <a href="{{slide.value}}">
+                            <img src="assets/images/{{slide.key}}.png" class="sl1">
+                        </a>
+                    </div>
+                </ngx-slick-carousel>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="summary-detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="chapter-detail">
+                    <div class="chapter-heading">
+                        <div class="row">
+                            <div class="col-lg-6 for-zero">
+                                <div class="heading-book">
+                                    <h3>"{{summary.name}}" summary</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="change-font">
+                                    <p>Font resize:
+                                        <a [routerLink]="" (click)="decreasefont()">
+                                            <img src="assets/images/add.png">
+                                        </a>
+                                        <a [routerLink]="" (click)="increaseFont()">
+                                            <img src="assets/images/sub.png">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <p class="author-name">Summary written by {{summary.summary_author}}. Audiobook narrated by {{summary.audiobook_narrator}}</p>
+                    <div class="chapter-one">
+                        
+                        <read-more [fulltext]="fullChapters"  [font]="fontSize" [maxLength]="500"></read-more>
+                    </div>
+                    <div class="social-follows">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="social-iconsssss">
+                                    <ul>
+                                        <li>Follow Us:</li>
+                                        <li [hidden]="!social.social.fb">
+                                            <a href="{{social.social.fb}}">
+                                                <i class="flaticon-facebook-logo"></i>
+                                            </a>
+                                        </li>
+                                        <li [hidden]="!social.social.instagram">
+                                            <a href="{{social.social.instagram}}">
+                                                <i class="flaticon-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li [hidden]="!social.social.twitter">
+                                            <a href="{{social.social.twitter}}">
+                                                <i class="flaticon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li [hidden]="!social.social.youtube">
+                                            <a href="{{social.social.youtube}}">
+                                                <i class="flaticon-youtube"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="join-us" [class.is-active]="newsletter">
+                                    
+                                        <a [routerLink]="" (click)="joinmail()" >
+                                            <i class="flaticon-black-back-closed-envelope-shape"></i> Join our mailing list</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="subscribe-panel" [hidden]="!newsletter" [class.is-active]="newsletter" >
+                       
+                        <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                                        
+                        <form class="form-inline" (ngSubmit)="subscribe(newsletterforms)" #newsletterforms="ngForm">
+                            <div class="form-group mb-2">
+                              <label for="ename" class="sr-only">Name</label>
+                              <input type="text" class="form-control" name="ename" id="ename" [(ngModel)]="newsletterform.ename" value="" placeholder="Name" required>
+                            </div>
+                            <div class="form-group mx-sm-3 mb-2">
+                              <label for="inputPassword2" class="sr-only">Email</label>
+                              <input type="email" class="form-control" id="email" name="email" [(ngModel)]="newsletterform.email" placeholder="Email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2" [disabled]="newsletterforms.invalid">Subscribe</button>
+                            <div [hidden]="!alert" class="alert alert-danger">{{alert}}</div>
+                             <div [hidden]="!success" class="alert alert-success">{{success}}</div>
+                          </form>
+                        
+                        </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="more-books">
+                    <h3>YOU MAY LIKE THIS</h3>
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-md-4 col-lg-6" *ngFor="let item of youlike;">
+                            <div class="like1 aa" [routerLink]="['/summary',item.id]" style="cursor: pointer;">
+                                <img src="{{assetsURl}}/summary_cover/{{item.summary_cover}}" onerror="this.src='./app/assets/images/placeholder.jpg';">
+                                <p>{{item.author}}</p>
+                                <h4>{{item.name}}</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <section class="popular_book my-bboks">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                                <div class="section_title">
+                                    <h3>YOU MAY LIKE THIS BOOKS</h3>
+                                </div>
+                                <div class="slider responsive book_slider regular" id="carousal">
+                                    <div *ngFor="let item of youlike;">
+                                        <div class="book_list" [routerLink]="['/summary',item.id]" style="cursor: pointer;">
+                                            <div class="book_list_img">
+                                                <img src="{{assetsURl}}/summary_cover/{{item.summary_cover}}" class="img-fluid">
+                                            </div>
+                                            <div class="book_list_txt">
+                                                <h4>{{item.author}}</h4>
+                                                <h2>{{item.name}}</h2>
+                                               
+                                                <div class="time d-flex align-items-center">
+                                                    <img src="assets/images/clock_icon.png" class="img-fluid">
+                                                    <span>{{item.estimated_time}}-minute read</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<app-popularsummaries showLoadMore="0" title="popular book summaries" orderBy="popular" limit=5 [sid]="filter.sid"></app-popularsummaries>
+<app-popularsummaries showLoadMore="0" title="New Book Summary Releases" orderBy="recent" limit=5 [sid]="filter.sid"></app-popularsummaries>
+<app-footer></app-footer>

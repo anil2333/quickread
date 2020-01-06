@@ -1,0 +1,63 @@
+<app-header></app-header>
+
+<section class="category_banner" [ngClass]="'header_'+cid">
+	<div class="container">
+		<div class="row">
+		<div class="col-12 col-sm-12 col-md-7 col-lg-7">
+		<div class="cat-banner-text" *ngIf="category.name">
+		<h2>{{category.name}}</h2>
+		<p>{{category.description}}</p>
+		</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="popular_book category_page-list">
+	<div class="container">
+	<div class="row">
+	<div class="col-12">
+	<div class="filters d-flex justify-content-end">
+    <span>sort by:</span><div class="sort_link">
+        <a [routerLink]="" (click)="orderBy('name')" [ngClass]="orderby == 'name' ? 'active' : 'none'" >alphabetically</a>
+        <a  [routerLink]="" (click)="orderBy('recent')" [ngClass]="orderby == 'recent' ? 'active' : 'none'" >most recent</a>
+		<a [routerLink]="" (click)="orderBy('popular')"  [ngClass]="orderby == 'popular' ? 'active' : 'none'">most popular</a></div>
+		
+		<div class="sort-select">
+			<select #t (change)="orderBy(t.value)">
+			<option value="name" [ngClass]="orderby == 'name' ? 'active' : 'none'">alphabetically</option>
+			<option value="recent"  [ngClass]="orderby == 'recent' ? 'active' : 'none'">most recent</option>
+			<option  value="popular"  [ngClass]="orderby == 'popular' ? 'active' : 'none'">most popular</option>
+			</select>
+			</div>
+	
+	</div>
+	</div>
+	</div>
+		<div class="row">
+			<div *ngFor="let item of summary;" class="col col-lg-3 col-md-4 col-sm-6 col-12 mob-cat-prdct">
+				<div class="book_list" [routerLink]="['/summary',item.id]" style="cursor:pointer">
+					<div class="book_list_img">
+					<img src="{{assetsURl}}/summary_cover/{{item.summary_cover}}" class="img-fluid">
+					</div>
+					<div class="book_list_txt">
+					<h4>{{item.author}}</h4>
+					<h2>{{item.name}}</h2>
+					<p>{{(item.short_description.length>35)? (item.short_description | slice:0:35)+'..':(item.short_description)}}</p>
+					<div class="time d-flex align-items-center"><img src="assets/images/clock_icon.png" class="img-fluid"><span>{{item.estimated_time | timeFormat}}-minute read</span> <img  src="assets/images/head-phone_icon.png" class="img-fluid ml-auto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div class="alert">{{error}}</div>
+
+		<div class="book_more-btn load_more-cat">
+            <a (click)="getMoreSummary()"  [hidden]="error!=null">Load 10 More</a> 
+        </div>
+	</div>
+</section>
+
+<app-contactfooter></app-contactfooter>
+<app-footer></app-footer>

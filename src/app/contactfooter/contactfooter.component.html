@@ -1,0 +1,43 @@
+<section class="form_section">
+<div class="container">
+<div class="row">
+
+<div class="col-12 col-lg-5 col-sm-4 col-md-4 d-none d-lg-block"></div>
+
+<div class="col-12 col-lg-6 col-sm-12 col-md-12">
+<div class="contact_form">
+<h2>Suggest books or improvements<br>
+you wish to see on our website</h2>
+
+
+<form (ngSubmit)="processForm(contactForm)" #contactForm="ngForm">
+<div class="form-group-row">
+  <div class="form-group">
+    <input type="" class="form-control" name="name" id="name" placeholder="Your name" [(ngModel)]="name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" id="email" aria-describedby="emailHelp" [(ngModel)]="email" #emailref="ngModel" placeholder="Your email" required>
+    <div *ngIf="emailref.errors &&(emailref.touched || emailref.dirty)" class ="aler alert-danger">
+        <div [hidden]="!emailref.errors?.pattern">Not valid email!</div> 
+       </div>
+  </div>
+
+  </div>
+  <div class="form-group-row">
+  <div class="form-group textarea">
+    <textarea class="form-control" rows="5" name="suggestions" id="suggestions" [(ngModel)]="suggestions" placeholder="Your suggestions" required></textarea>
+  </div>
+  </div>
+  <div class="form_submit">
+  <button type="submit" class="btn btn-primary" [disabled]="contactForm.invalid">Send</button>
+  <div [hidden]="!alert">{{alert}}</div>
+  </div>
+</form>
+
+</div>
+</div>
+
+<div class="col-12 col-lg-1 col-sm-1 col-md-1 d-none d-lg-block"></div> 
+</div>
+</div>
+</section>

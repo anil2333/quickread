@@ -1,0 +1,19 @@
+<app-header></app-header>
+<app-topslider></app-topslider>
+<app-popularsummaries showLoadMore="1" title="popular book summaries" orderBy="popular" limit=5></app-popularsummaries>
+
+<section class="category_section d-none d-lg-block">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-4 col-sm-4 col-md-6" *ngFor="let item of category;">
+					<div class="category-list">
+					<a class="d-flex align-items-center" [routerLink]="['/summaries',item.id]"><div class="category-img"><img src="assets/images/{{item.slug}}.png" class="img-fluid"><img src="assets/images/{{item.slug}}-hover.png" class="img-fluid orange"></div> <span>{{item.name}}</span></a>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<app-popularsummaries showLoadMore="1" title="new book summary releases" orderBy="recent" limit=5></app-popularsummaries>
+<app-contactfooter></app-contactfooter>
+<app-footer></app-footer>

@@ -1,0 +1,56 @@
+<app-header (onSearchPicked)="getSearchValue($event)"></app-header>
+
+<!--<section class="category_banner">
+	<div class="container">
+		<div class="row">
+		<div class="col-12 col-sm-12 col-md-7 col-lg-7">
+		<div class="cat-banner-text">
+		<h2>Money & Investments</h2>
+		<p>You work hard for your money, right? Let the experts show you how to make it work hard for you.</p>
+		</div>
+		</div>
+		</div>
+	</div>
+</section>-->
+
+
+<section class="popular_book category_page-list">
+	<div class="container">
+	<div class="row">
+	<div class="col-12">
+	<!--<div class="filters d-flex justify-content-end">
+    <span>sort by:</span><div class="sort_link">
+        <a [routerLink]="" (click)="orderBy($event,'name')" [ngClass]="orderby == 'name' ? 'active' : 'none'" >alphabetically</a>
+        <a  [routerLink]="" (click)="orderBy($event, 'recent')" [ngClass]="orderby == 'recent' ? 'active' : 'none'" >most recent</a>
+        <a [routerLink]="" (click)="orderBy($event, 'popular')"  [ngClass]="orderby == 'popular' ? 'active' : 'none'">most popular</a></div>
+	
+    </div>-->
+    <div *ngIf="filter.search" class="h3">Search Result Of {{filter.search}}</div>
+    
+	</div>
+	</div>
+		<div class="row">
+			<div *ngFor="let item of summary;" class="col col-lg-3 col-md-4 col-sm-6 col-12 mob-cat-prdct">
+				<div class="book_list"  [routerLink]="['/summary',item.id]" style="cursor:pointer">
+					<div class="book_list_img">
+					<img src="{{assetsURl}}/summary_cover/{{item.summary_cover}}" class="img-fluid">
+					</div>
+					<div class="book_list_txt">
+					<h4>{{item.author}}</h4>
+					<h2>{{item.name}}</h2>
+					<p>{{(item.short_description.length>35)? (item.short_description | slice:0:35)+'..':(item.short_description)}}</p>
+					<div class="time d-flex align-items-center"><img src="assets/images/clock_icon.png" class="img-fluid"><span>12-minute read</span> <img  src="assets/images/head-phone_icon.png" class="img-fluid ml-auto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div class="alert">{{error}}</div>
+
+		<div class="book_more-btn load_more-cat">
+            <a (click)="getMoreSummary()"  [hidden]="error!=null">Load 10 More</a> 
+        </div>
+	</div>
+</section>
+
+<app-footer></app-footer>

@@ -1,0 +1,53 @@
+<app-header></app-header>
+<main role="inner" class="_abt">
+    <div class="container p-sm-0">
+        <div class="upperText">
+            <div class="px-sm-5 pb-sm-5 pb-3 pt-4 paddCustom">
+                <h1 class="pb-sm-3">About Us</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin. </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin. Non quam lacus suspendisse faucibus interdum. Viverra maecenas accumsan lacus vel. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Quis blandit turpis cursus in hac habitasse. Sapien et ligula ullamcorper malesuada.</p>
+            </div>
+            <img src="assets/images/Bitmap1.jpg" class="img-fluid w-100" alt="bitmap">
+        </div>
+        <div class="lowerTxt">
+            <div class="px-sm-5 py-4 paddCustom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin. Non quam lacus suspendisse faucibus interdum. Viverra maecenas accumsan lacus vel. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Quis blandit turpis cursus in hac habitasse. Sapien et ligula ullamcorper malesuada.</p>
+            </div>
+            <article class="px-sm-5 py-4">Id aliquet risus feugiat in ante metus dictum at. Nisl nunc mi ipsum faucibus vitae aliquet nec. Integer malesuada nunc vel risus commodo viverra maecenas. </article>
+            <div class="px-sm-5 py-sm-5 pt-4 pb-4 paddCustom">
+                <div class="txtNormal">
+                    <p>Magna ac placerat vestibulum lectus mauris ultrices eros. Accumsan sit amet nulla facilisi morbi tempus iaculis. Faucibus scelerisque eleifend donec pretium vulputate. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Vel eros donec ac odio tempor orci. Feugiat vivamus at augue eget arcu dictum.</p>
+                    <p>Imperdiet sed euismod nisi porta. Purus sit amet luctus venenatis lectus magna fringilla urna. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Nec dui nunc mattis enim ut tellus elementum sagittis. Consectetur lorem donec massa sapien faucibus. Massa tempor nec feugiat nisl pretium fusce. In eu mi bibendum neque egestas congue quisque egestas diam. Magna fermentum iaculis eu non. Ornare arcu odio ut sem nulla pharetra. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Quam vulputate dignissim suspendisse in est ante.</p>
+                </div>
+            </div>
+        </div>
+        <div class="formContact text-center">
+            <div class="form_head mb-sm-5 mb-4">Contact us :</div>
+            <div class="d-sm-flex justify-content-center  mb-5">
+                <div class="iconns mb-sm-4 text-center">
+                    <div class="wrap">
+                        <img src="assets/images/call.png" alt="call"></div>0208 068 6644
+                </div>
+                <div class="iconns mb-sm-4 text-center">
+                    <div class="wrap">
+                        <img src="assets/images/mail.png" alt="call"></div>info@booksummaries.com
+                </div>
+            </div>
+            <form class="px-sm-5" (ngSubmit)="sendUsmessage(sendMessageUs)" #sendMessageUs="ngForm">
+                <div class="form_head pb-5">Send Us a Message:</div>
+                <div class="d-flex justify-content-center flex-wrap">
+                    <input type="text" name="name" id="name" placeholder="Your Name" [(ngModel)]="formFields.name" required /><input type="text" placeholder="Email" name="email" id="email" required [(ngModel)]="formFields.email" /><input type="text" name="phone" id="phone" required class="mr-0" placeholder="Phone" [(ngModel)]="formFields.phone" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <textarea class="w-100" name="message" id="message" required [(ngModel)]="formFields.message">Message</textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <input type="submit" value="submit" [disabled]="sendMessageUs.invalid">
+                </div>
+                <div [hidden]="!alert" class="alert alert-danger">{{alert}}</div>
+                             <div [hidden]="!success" class="alert alert-success">{{success}}</div>
+            </form>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

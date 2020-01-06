@@ -1,0 +1,12 @@
+.join-us.is-active{
+    background-color: #f3f3f3;
+    
+    padding: 5px;
+}
+.subscribe-panel.is-active{
+    background-color: #f3f3f3;
+}
+.subscribe-panel{text-align: center; padding: 10px}
+.subscribe-panel form{
+    justify-content: center;
+}

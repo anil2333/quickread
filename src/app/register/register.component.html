@@ -1,0 +1,19 @@
+<p class="alert" *ngIf="password.value !== rpassword.value"> Password Not Matched</p>
+<form (ngSubmit)="onFormSubmit(regForm)" #regForm="ngForm">
+
+    <label>Full Name</label>
+    <input name="name" id="name" #name ngModel placeholder="Full Name" required>
+
+
+    <label>Email</label>
+    <input name="email" id="email" #email ngModel placeholder="Email" required>
+
+    <label>Password</label>
+    <input name="password" id="password" #password ngModel autocomplete="false" required>
+
+    <label>Re Password</label>
+    <input name="rpassword" id="rpassword" #rpassword ngModel autocomplete="false" required>
+
+    <button type="submit" [disabled]="regForm.invalid || password.value !== rpassword.value">Register</button>
+
+</form>

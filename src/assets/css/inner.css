@@ -1,0 +1,136 @@
+@media (max-width: 575px) {
+  main._abt[role="inner"] {
+    padding: 0 10px; } }
+@media (min-width: 1025px) {
+  main._abt[role="inner"] .container {
+    max-width: 59.3vw; } }
+main._abt[role="inner"] h1 {
+  color: #082f54;
+  font-family: 'Bitstream Vera Sans';
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 60.62px; }
+main._abt[role="inner"] h3 {
+  color: #082f54;
+  font-size: 24px;
+  line-height: 36.72px; }
+main._abt[role="inner"] p {
+  color: #082f54;
+  font-family: Proxima Nova Rg;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.62px; }
+main._abt[role="inner"] article {
+  background-color: #f7f7f7;
+  color: #082f54;
+  font-size: 20px;
+  line-height: 34.15px;
+  padding: 20px 60px; }
+main._abt[role="inner"] .txtNormal {
+  color: #082f54;
+  font-family: "Avenir Next";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25.62px; }
+  main._abt[role="inner"] .txtNormal p {
+    color: #082f54;
+    font-family: "Avenir Next";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25.62px; }
+main._abt[role="inner"] .formContact {
+  padding-bottom: 10.4vw; }
+  main._abt[role="inner"] .formContact .form_head {
+    color: #082f54;
+    font-family: "Avenir Next";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "Contact Us" */
+    letter-spacing: 0.94px; }
+  main._abt[role="inner"] .formContact .iconns {
+    color: #082f54;
+    font-family: "Avenir Next";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25.62px;
+    flex: 1; }
+    main._abt[role="inner"] .formContact .iconns .wrap {
+      background: #f7f7f7;
+      width: 65px;
+      height: 65px;
+      border-radius: 33px;
+      line-height: 65px;
+      display: inline-block;
+      margin-right: 15px; }
+    main._abt[role="inner"] .formContact .iconns img {
+      max-width: 23px; }
+  main._abt[role="inner"] .formContact form input {
+    min-height: 43px;
+    border: 1px solid #082f54;
+    background-color: #ffffff;
+    flex: 1;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding-left: 15px; }
+  main._abt[role="inner"] .formContact form textarea {
+    min-height: 122px;
+    border: 1px solid #082f54;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    color: #898989;
+    padding: 15px; }
+  main._abt[role="inner"] .formContact form input[type="submit"] {
+    background-color: #f96b0f;
+    color: #ffffff;
+    font-family: "Avenir Next";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.89px;
+    border: 0;
+    max-width: 225px;
+    border: 1px solid transparent;
+    margin: 0;
+    transition: all 0.5s; }
+    main._abt[role="inner"] .formContact form input[type="submit"]:hover {
+      border: 1px solid #082f54;
+      background: transparent;
+      color: #082f54; }
+
+@media (max-width: 768px) {
+  main._abt[role="inner"] .formContact .iconns {
+    text-align: left; }
+
+  main._abt[role="inner"] .formContact .iconns .wrap {
+    margin-right: 8px; }
+
+  main._abt[role="inner"] .formContact .iconns .wrap {
+    text-align: center; } }
+@media (max-width: 576px) {
+  main._abt[role="inner"] .formContact form input[type="submit"] {
+    max-width: 100%;
+    font-size: 18px;
+    min-height: 55px; }
+
+  main._abt[role="inner"] .formContact .iconns .wrap {
+    background: transparent;
+    width: auto;
+    height: auto; }
+
+  main._abt[role="inner"] h3 {
+    font-size: 18px; }
+
+  main._abt[role="inner"] article {
+    padding: 20px; }
+
+  main._abt[role="inner"] .formContact {
+    padding-bottom: 90px; }
+
+  main._abt[role="inner"] h1 {
+    font-size: 30px; }
+
+  main._abt[role="inner"] article {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=inner.css.map */

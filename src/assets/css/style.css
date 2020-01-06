@@ -1,0 +1,2007 @@
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-BoldItalic.eot');
+    src: url('../fonts/AvenirNext-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-BoldItalic.woff2') format('woff2'),
+        url('../fonts/AvenirNext-BoldItalic.woff') format('woff'),
+        url('../fonts/AvenirNext-BoldItalic.ttf') format('truetype'),
+        url('../fonts/AvenirNext-BoldItalic.svg#../fonts/AvenirNext-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Medium.eot');
+    src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Medium.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Medium.woff') format('woff'),
+        url('../fonts/AvenirNext-Medium.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Medium.svg#../fonts/AvenirNext-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Bold.eot');
+    src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Bold.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Bold.woff') format('woff'),
+        url('../fonts/AvenirNext-Bold.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Bold.svg#../fonts/AvenirNext-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Italic.eot');
+    src: url('../fonts/AvenirNext-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Italic.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Italic.woff') format('woff'),
+        url('../fonts/AvenirNext-Italic.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Italic.svg#../fonts/AvenirNext-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-HeavyItalic.eot');
+    src: url('../fonts/AvenirNext-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/AvenirNext-HeavyItalic.woff') format('woff'),
+        url('../fonts/AvenirNext-HeavyItalic.ttf') format('truetype'),
+        url('../fonts/AvenirNext-HeavyItalic.svg#../fonts/AvenirNext-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Heavy.eot');
+    src: url('../fonts/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Heavy.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Heavy.woff') format('woff'),
+        url('../fonts/AvenirNext-Heavy.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Heavy.svg#../fonts/AvenirNext-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi';
+    src: url('../fonts/AvenirNext-DemiBoldItalic.eot');
+    src: url('../fonts/AvenirNext-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-DemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/AvenirNext-DemiBoldItalic.woff') format('woff'),
+        url('../fonts/AvenirNext-DemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/AvenirNext-DemiBoldItalic.svg#../fonts/AvenirNext-DemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Regular.eot');
+    src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-Regular.woff2') format('woff2'),
+        url('../fonts/AvenirNext-Regular.woff') format('woff'),
+        url('../fonts/AvenirNext-Regular.ttf') format('truetype'),
+        url('../fonts/AvenirNext-Regular.svg#../fonts/AvenirNext-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Ultra';
+    src: url('../fonts/AvenirNext-UltraLight.eot');
+    src: url('../fonts/AvenirNext-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-UltraLight.woff2') format('woff2'),
+        url('../fonts/AvenirNext-UltraLight.woff') format('woff'),
+        url('../fonts/AvenirNext-UltraLight.ttf') format('truetype'),
+        url('../fonts/AvenirNext-UltraLight.svg#../fonts/AvenirNext-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi';
+    src: url('../fonts/AvenirNext-DemiBold.eot');
+    src: url('../fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-DemiBold.woff2') format('woff2'),
+        url('../fonts/AvenirNext-DemiBold.woff') format('woff'),
+        url('../fonts/AvenirNext-DemiBold.ttf') format('truetype'),
+        url('../fonts/AvenirNext-DemiBold.svg#../fonts/AvenirNext-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Ultra';
+    src: url('../fonts/AvenirNext-UltraLightItalic.eot');
+    src: url('../fonts/AvenirNext-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-UltraLightItalic.woff2') format('woff2'),
+        url('../fonts/AvenirNext-UltraLightItalic.woff') format('woff'),
+        url('../fonts/AvenirNext-UltraLightItalic.ttf') format('truetype'),
+        url('../fonts/AvenirNext-UltraLightItalic.svg#../fonts/AvenirNext-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-MediumItalic.eot');
+    src: url('../fonts/AvenirNext-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNext-MediumItalic.woff2') format('woff2'),
+        url('../fonts/AvenirNext-MediumItalic.woff') format('woff'),
+        url('../fonts/AvenirNext-MediumItalic.ttf') format('truetype'),
+        url('../fonts/AvenirNext-MediumItalic.svg#../fonts/AvenirNext-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+
+/*******===============================================********/
+@font-face {
+    font-family: 'Bitstream Vera Sans';
+    src: url('../fonts/BitstreamVeraSans-Roman.eot');
+    src: url('../fonts/BitstreamVeraSans-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BitstreamVeraSans-Roman.woff2') format('woff2'),
+        url('../fonts/BitstreamVeraSans-Roman.woff') format('woff'),
+        url('../fonts/BitstreamVeraSans-Roman.ttf') format('truetype'),
+        url('../fonts/BitstreamVeraSans-Roman.svg#BitstreamVeraSans-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bitstream Vera Sans';
+    src: url('../fonts/BitstreamVeraSans-Bold.eot');
+    src: url('../fonts/BitstreamVeraSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BitstreamVeraSans-Bold.woff2') format('woff2'),
+        url('../fonts/BitstreamVeraSans-Bold.woff') format('woff'),
+        url('../fonts/BitstreamVeraSans-Bold.ttf') format('truetype'),
+        url('../fonts/BitstreamVeraSans-Bold.svg#BitstreamVeraSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bitstream Vera Sans';
+    src: url('../fonts/BitstreamVeraSans-BoldOblique.eot');
+    src: url('../fonts/BitstreamVeraSans-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BitstreamVeraSans-BoldOblique.woff2') format('woff2'),
+        url('../fonts/BitstreamVeraSans-BoldOblique.woff') format('woff'),
+        url('../fonts/BitstreamVeraSans-BoldOblique.ttf') format('truetype'),
+        url('../fonts/BitstreamVeraSans-BoldOblique.svg#BitstreamVeraSans-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bitstream Vera Sans';
+    src: url('../fonts/BitstreamVeraSans-Oblique.eot');
+    src: url('../fonts/BitstreamVeraSans-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BitstreamVeraSans-Oblique.woff2') format('woff2'),
+        url('../fonts/BitstreamVeraSans-Oblique.woff') format('woff'),
+        url('../fonts/BitstreamVeraSans-Oblique.ttf') format('truetype'),
+        url('../fonts/BitstreamVeraSans-Oblique.svg#BitstreamVeraSans-Oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/slick.eot');
+    src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../fonts/slick.svg#slick') format('svg');
+}
+
+
+
+
+
+
+/*========================================================*/
+
+/*==========================proximanova start==============================*/
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('../fonts/ProximaNova-Black.eot');
+    src: url('../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Black.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Black.woff') format('woff'),
+        url('../fonts/ProximaNova-Black.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Black.svg#ProximaNova-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-Extrabld.eot');
+    src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+        url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Light.eot');
+    src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Light.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Light.woff') format('woff'),
+        url('../fonts/ProximaNova-Light.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNovaT-Thin.eot');
+    src: url('../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+        url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+        url('../fonts/ProximaNovaT-Thin.ttf') format('truetype'),
+        url('../fonts/ProximaNovaT-Thin.svg#ProximaNovaT-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova RgIT';
+    src: url('../fonts/ProximaNova-BoldIt.eot');
+    src: url('../fonts/ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-BoldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-BoldIt.woff') format('woff'),
+        url('../fonts/ProximaNova-BoldIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-BoldIt.svg#ProximaNova-BoldIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova SmIt';
+    src: url('../fonts/ProximaNova-SemiboldIt.eot');
+    src: url('../fonts/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-SemiboldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-SemiboldIt.woff') format('woff'),
+        url('../fonts/ProximaNova-SemiboldIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-SemiboldIt.svg#ProximaNova-SemiboldIt') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Sm';
+    src: url('../fonts/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+
+   
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-ExtrabldIt.eot');
+    src: url('../fonts/ProximaNova-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-ExtrabldIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-ExtrabldIt.woff') format('woff'),
+        url('../fonts/ProximaNova-ExtrabldIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-ExtrabldIt.svg#ProximaNova-ExtrabldIt') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('../fonts/ProximaNova-ThinIt.eot');
+    src: url('../fonts/ProximaNova-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-ThinIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-ThinIt.woff') format('woff'),
+        url('../fonts/ProximaNova-ThinIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-ThinIt.svg#ProximaNova-ThinIt') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-RegularIt.eot');
+    src: url('../fonts/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-RegularIt.woff') format('woff'),
+        url('../fonts/ProximaNova-RegularIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('../fonts/ProximaNova-BlackIt.eot');
+    src: url('../fonts/ProximaNova-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-BlackIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-BlackIt.woff') format('woff'),
+        url('../fonts/ProximaNova-BlackIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-BlackIt.svg#ProximaNova-BlackIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-LightIt.eot');
+    src: url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-LightIt.woff2') format('woff2'),
+        url('../fonts/ProximaNova-LightIt.woff') format('woff'),
+        url('../fonts/ProximaNova-LightIt.ttf') format('truetype'),
+        url('../fonts/ProximaNova-LightIt.svg#ProximaNova-LightIt') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+.autocomplete-container .input-container input{font-size: 16px !important;}
+.navbar-nav{
+	z-index:99999;
+}
+/*==========================proximanova ends==============================*/
+.mobi_search, .cross{
+	display:none;
+}
+/*==================category page css start==============================*/
+.category_page-list .mob-cat-prdct{
+	margin-bottom: 50px;
+}
+.filters .sort-select{
+	display:none;
+}
+.book-paragraph.hide_togle:before {
+    opacity: 0;
+    transition: all 0.4s;
+}.book-paragraph.hide_togle:before {
+    opacity: 0;
+    transition: all 0.4s;
+}
+.chapter-one.hide_togle1:after {
+    opacity: 0;
+	transition: all 0.4s;
+}
+#more {display: none;}
+#more1 {display: none;}
+.filters {
+    color: #002f57;
+    font-family: 'Avenir Next Demi';
+    font-weight: 600;
+    font-size: 17px;
+	align-items: center;
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+.category_page-list .book_list_img{
+	padding: 18px 8px 0px 8px;
+}
+.category_banner {
+    height: 348px;
+    background-image: url(../images/category-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#90d5d8;
+    background-position: 60% 100%;
+}
+.cat-banner-text h2 {
+    font-size: 49px;
+    font-weight: bold;
+    color: #fff;
+	margin-bottom: 30px;
+}
+.cat-banner-text p {
+    font-size: 23px;
+    color: #fff;
+	padding-right: 75px;
+	line-height: 39px;
+}
+.cat-banner-text {
+    padding-top: 80px;
+}
+.filters a {
+    color: #002f57;
+	border: 1px solid #002f57;
+    border-right: 0;
+	padding: 10px 20px;
+}
+.filters a.active {
+    background: #002f57;
+	color:#fff;
+}
+.filters a:hover {
+    text-decoration: none;
+	background: #002f57;
+	color:#fff;
+}
+.filters a:last-child{
+	border-right: 1px solid #002f57;
+}
+.filters span {
+    text-transform: capitalize;
+	margin-right: 20px;
+}
+.book_more-btn.load_more-cat a {
+    min-width: auto;
+    padding: 0 45px;
+    font-weight: 600;
+    font-family: 'Avenir Next Demi';
+}
+.book_more-btn.load_more-cat {
+    margin-top: 25px;
+}
+.popular_book.category_page-list {
+    padding-bottom: 90px;
+}
+/*==================category page css ends==============================*/
+
+
+
+
+.category-list .orange {
+    display: none;
+}
+.category-list a:hover img {
+    display: none !important;
+}
+.category-list a:hover img.orange {
+    display: block !important;
+}
+.category-list a:hover span {
+    color: #fa6706;
+}
+.category-list {
+    margin-bottom: 20px;
+}
+.category-list span {
+    color: #082f54;
+    font-size: 16px;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.category-img {
+    justify-content: center;
+    width: 30px;
+    display: flex;
+    display: -webkit-flex;
+}
+.category_section .container {
+    background: #f7f7f7;
+    padding: 50px 80px 60px 150px;
+}
+.category-list a:hover {
+    text-decoration: none;
+}
+/*****************slick slider css start*****************/
+    .slider {
+        width: 100%;
+        margin: 0px auto !important;
+    }
+    
+
+/*****************slick slider css ends*****************/
+
+/**********book slider home css start*************/
+.book_more-btn a {
+    font-size: 17px;
+    min-width: 334px;
+    display: inline-block;
+    min-height: 46px;
+    line-height: 46px;
+    font-family: 'Avenir Next';
+    font-weight: 500;
+}
+.book_list_txt p {
+    color: #082f54;
+    font-size: 16px;
+    font-family: 'Proxima Nova Lt';
+}
+.book_list_img{
+	padding: 18px 8px 0px 8px;
+margin-bottom: 30px;
+position: relative;
+}
+.book_list_img img {
+    box-shadow: 3px 7px 7px rgba(0,0,0,0.4);
+}
+.book_list_txt h4 {
+    font-size: 16px;
+    font-family: 'Proxima Nova Lt';
+    color: #082f54;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.change-font img {
+    width: 31px;
+}
+.book_list_txt {
+    padding: 0 0px 0 8px;
+}
+.book_list {
+    font-family: 'Proxima Nova Rg';
+}
+.book_list_txt h2 {
+    color: #082f54;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    font-family: 'Proxima Nova Rg';
+}
+.book_list_txt .time img {
+    max-width: 17px;
+    margin-right: 5px;
+    width: auto !important;
+}
+.book_list_txt .time span {
+    font-size: 14px;
+    color: #082f54;
+}
+.book_more-btn a {
+    background: #e6eaee;
+	color:#828f99;
+}
+.book_more-btn {
+    text-align: center;
+	margin-top: 35px;
+}
+.book_more-btn a:hover {
+    text-decoration: none;
+}
+.slick-slide .book_rating img {
+    max-width: 14px !important;
+    box-shadow: none;
+    margin: 0 2px 0 0;
+}
+.book_rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.book_rating {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    width: 51px;
+    height: 25px;
+    background: #fff;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 20px;
+	font-family: roboto;
+	font-size: 14px;
+	color:#fa6706;
+}
+.book_rating span {
+    margin-top: 2px;
+}
+/**********book slider home css ends*************/
+
+body{
+	font-family: 'Bitstream Vera Sans';
+}
+
+.banner_text {
+    padding-left: 50px;
+}
+.search_form{
+	position:relative;
+	margin-left: 70px;
+}
+.search_form input {
+    border-radius: 0;
+    border-color: #082f54;
+	min-height: 49px;
+	text-transform: uppercase;
+	color:#082f54;
+    width: 320px !important;
+    padding-left: 20px;
+}
+.search_form button {
+    position: absolute;
+    right: 11px;
+    border: 0;
+    padding: 12px;
+	top: 0px;
+}
+.search_form button:hover, .search_form button:focus, .search_form button:active {
+    background-color: transparent !important;
+	box-shadow:none !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #082f54 !important;
+    letter-spacing: 1.4px !important;
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;
+}
+.search_form input {
+    border-radius: 0;
+    border-color: #082f54;
+	min-height: 49px;
+	text-transform: uppercase;
+	color: #082f54;
+		letter-spacing: 1.4px;
+}
+.search_form input::placeholder {
+    color: #082f54;
+    font-size: 14px;
+    font-weight: 500;
+}
+.banner_section {
+    min-height: 605px;
+    /*background-image: url(../images/banner-bg.jpg);*/
+	background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: left center;
+	padding: 90px 0 0px 0;
+}
+.banner_text p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 500;
+	margin: 30px 0 60px 0;
+}
+.banner_button a {
+    margin-right: 20px;
+}
+.banner_text h2 {
+    font-size: 57px;
+    color: #fff;
+	font-weight: bold;
+}
+.popular_book {
+    padding: 70px 0 50px 0;
+}
+.section_title h3 {
+	margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #082f54;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+.contact_form h2 {
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #323236;
+	line-height: 37px;
+	margin: 60px 0 35px 0;
+}
+.form_section {
+    background: #ffcac5;
+}
+.contact_form .form-group-row {
+    display: flex;
+    display: -webkit-flex;
+	justify-content: space-between;
+}
+.contact_form .form-group-row .form-group.textarea {
+    width: 100%;
+}
+.contact_form .form-group-row .form-group {
+    width: 48%;
+}
+.contact_form .form-group .form-control {
+    min-height: 52px;
+    border-radius: 0;
+    border: 1px solid #d8a9a5;
+}
+.contact_form .form-group .form-control {
+    min-height: 52px;
+    border-radius: 0;
+    border: 1px solid #d8a9a5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color:#afa4a3;
+}
+.contact_form .form-group .form-control::placeholder {
+    color: #afa4a3;
+}
+.form_section {
+    background-image: url(../images/form_sec-bg.jpg);
+    background-size: cover;
+    background-position: 60% 100%;
+	padding-bottom: 40px;
+	margin-top: 30px;
+}
+.contact_form form {
+    padding: 0 30px;
+}
+.form_submit {
+    text-align: right;
+	margin-top: 8px;
+}
+.form_submit button {
+    background: #f96046;
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    min-width: 148px;
+    min-height: 54px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+footer {
+    background: #232328;
+	color: #fff;
+	padding: 80px 0 60px 0;
+	font-family: 'Bitstream Vera Sans';
+}
+.footer_head h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+	font-family: 'Bitstream Vera Sans';
+	font-style: normal;
+	margin-bottom: 30px;
+}
+.apps ul li a {
+    opacity: 1 !important;
+}
+.apps ul li {
+    margin-bottom: 30px !important;
+}
+.footer_menu ul, .apps_menu ul {
+    margin: 0;
+    padding: 0;
+}
+.footer_menu ul li, .apps_menu ul li {
+    list-style: none;
+	margin-bottom: 16px;
+}
+.footer_menu ul li a:hover {
+    text-decoration: none;
+}
+.footer_menu ul li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.55;
+}
+.copyright_left span {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.opc-5 {
+    opacity: 0.35;
+}
+.footer_border {
+    border-color: #fff;
+	margin-top: 70px;
+	opacity: 0.36;
+	margin-bottom: 50px;
+}
+.pl-50 {
+    padding-left: 50px;
+}
+.copyright_cntr {
+    font-size: 16px;
+}
+.social_icons ul {
+    padding: 0;
+    margin: 0;
+	padding-left: 100px;
+}
+.social_icons ul li {
+    list-style: none;
+}
+li.nav-item {
+    margin: 0 10px;
+}
+
+
+
+
+@media (min-width:1200px){
+	.container {
+    max-width: 1200px;
+}
+.category_page-list .mob-cat-prdct {
+    flex-basis: 20%;
+    flex-grow: 0;
+	margin-bottom: 50px;
+}
+.navbar {
+    border-bottom: 2px solid #f4f4f4;
+    padding: .8rem 4.5rem !important;
+}
+}
+@media (max-width:1199px){
+	.category_section .container{
+		padding: 50px 10px 60px 70px;
+	}
+	.cat-banner-text {padding-top: 40px;}
+}
+@media (max-width:991px){
+	.mobi_search input, .mobi_search input::placeholder {
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-size: 16px;
+	opacity: 1;
+}
+.media-players {
+    text-align: center;
+    padding: 36px 0 !important;
+}
+.m-player .download-app {
+    text-align: left;
+    padding-left: 15px;
+}
+/***==============mob search css start================***/
+.cross, .search_icon-mob {cursor: pointer;}
+.search_active .mobi_search {z-index: 9;opacity: 1;}
+.search_active .navbar-toggler {z-index: -1;opacity: 0;}
+.search_active .cross {z-index: 9;opacity: 1;display: flex;display: -webkit-flex;}
+.mobi_search input {width: 100%; border: 0;}
+.mobi_search {position: absolute;height: 100%;display: flex;background: #fff; width: 75%;opacity: 0;z-index: -1;}
+.cross {position: absolute;right: 35px;z-index: -1;opacity: 0;}
+
+/***==============mob search css ends================***/
+	
+.copyright_left {display: none !important;}
+footer .pl-50 {padding-left: 0;}
+.form_section {background-image: none;}
+.cat-banner-text p{padding-right: 60px;line-height: 32px;font-size: 20px;}
+.cat-banner-text h2{margin-bottom: 10px;}
+.category_banner{background-position: 68% 100%;}
+.cat-banner-text h2{font-size: 41px;}
+
+.navbar{
+	padding: .8rem 20px;
+}
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+.navbar-toggler-icon{
+	width: 1.3em;
+	height: 1.3em;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(8, 47, 84, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.search_icon-mob {
+    margin-right: 16px;
+}
+.navbar-collapse .navbar-nav, .navbar-collapse .search_form {
+    display: none;
+}
+#navbarSupportedContent .category-list span {
+    color: #fff;
+}
+#navbarSupportedContent {
+    background: #082f54;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+	z-index: 99;
+	padding-bottom: 35px;
+}
+.mobile-menu .category-list a:hover img {
+    display: block !important;
+}
+.mobile-menu .category-list {
+    padding-left: 40px;
+}
+.category-list.home_menu {
+    padding-top: 20px;
+    border-bottom: 2px solid #14395c;
+    padding-bottom: 20px;
+}
+}
+@media (min-width:1400px){
+	.form_section{
+		background-position: top center;
+	}
+}
+@media (max-width:767px){
+	.category_page-list .mob-cat-prdct {margin-bottom: 30px;}
+	.filters a{padding: 10px 12px;}
+	.cat-banner-text h2 {margin-bottom: 25px;}
+	.cat-banner-text {padding-top: 80px;}
+	.category_banner{background-image: none;}
+	.cat-banner-text {display: flex;flex-wrap: wrap;justify-content: center;display: -webkit-flex;text-align: center;}
+	.cat-banner-text p {padding-right: 0;}
+	.footer-widget.pl-50 {padding-left: 0;}
+	.popular_book .slick-slider button.slick-arrow {display: none !important;}
+/**************footer accordian css start*******************/
+.accordion {cursor: pointer;transition: 0.4s;}
+.panel {max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
+
+.footer_head.accordion { border-bottom: 2px solid #46464a;}
+.footer_head.accordion h2 { margin-bottom: 0;}
+.footer_head.accordion {border-bottom: 2px solid #46464a;padding-bottom: 16px;margin-bottom: 16px;position: relative;}
+.footer_head.accordion::before {content: "";background-image: url(../images/drop_icon.png);width: 14px;height: 9px;position: absolute;right: 5px;top: 5px;}
+.footer_head.accordion.active::before {content: "";background-image: url(../images/up_icon.png);width:14px;height: 9px;position:absolute;right:5px;top: 5px;}
+.apps .footer_head {display: none;}
+.apps .apps_menu {margin-top: 30px;}
+.apps .apps_menu ul {display: flex;justify-content: center;display: -webkit-flex;}
+.apps .apps_menu ul li {margin: 0 13px;}
+footer{
+	padding: 45px 10px 50px 10px;
+}
+.footer_border, .copyright_left {
+    display: none !important;
+}
+.social_icons ul{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.copyright_cntr {
+    padding: 8px 0 30px 0;
+}
+/***************footer accordian css ends*****************/
+.banner_section{
+	background-position: 75% 100%;
+}
+}
+@media (max-width:575px){
+	.mob-cat-prdct {max-width: 238px;}
+	.category_page-list .row {justify-content: center;}
+	.filters {flex-wrap: wrap;justify-content: center !important;text-align: center;margin-bottom: 0;}
+	.filters .sort_link {display: none;}
+	.filters span {text-transform: capitalize;margin-right: 20px;width: 100%;margin-right: 0;}
+	.filters .sort-select {display: block;position: relative; margin:auto; margin-top: 10px;}
+	.sort-select select {color: #002f57;font-family: 'Avenir Next Demi';font-weight: 600;font-size: 17px;padding-right: 10px;margin-bottom: 18px;border: 1px solid #002f57;-webkit-appearance: none;-moz-appearance: none;padding: 10px 12px;width: 190px;}
+	.filters .sort-select::before {content: "";background-image: url(../images/select_drop-icon.png);width: 12px;height: 8px;position: absolute;right: 16px;top: 21px;}
+	.popular_book.category_page-list {padding: 35px 0 50px 0;}
+	.category_page-list .book_more-btn.load_more-cat {display: block;margin-top: 40px;}
+    .mobi_search{width: 70%;}
+	.book-paragraph {padding:15px}
+    
+}
+
+@media (max-width:480px){
+	.mobi_search{width: 60%;}
+	.cat-banner-text {
+    padding-top:285px;
+}
+	.navbar-brand img {
+    max-width: 165px;
+}
+#navbarSupportedContent{
+	top: 80px;
+}
+	.slick-list.draggable {
+    padding: 0 15% 0 15%;
+}
+.book_more-btn {
+    display: none;
+}
+.New-book-smry {
+    padding-top: 40px;
+    border-top: 2px solid #f0f0f0;
+}
+.popular_book {
+    padding: 50px 0 50px 0;
+}
+.banner_text {
+    padding-left: 0;
+}
+.banner_text h2 {
+    font-size: 42px;
+    text-align: center;
+	line-height: 60px;
+}
+.banner_text p {
+    font-size: 19px;
+    margin: 16px 0 45px 0;
+    text-align: center;
+    line-height: 33px;
+}
+.section_title h3{
+	font-size: 16px;
+}
+.contact_form h2{
+	font-size: 21px;
+	line-height: 31px;
+	margin: 50px 0 35px 0;
+}
+.form_submit button{
+	min-width: 100%;
+}
+.contact_form .form-group-row .form-group {
+    width: 100%;
+}
+.contact_form .form-group-row{
+	flex-wrap: wrap;
+}
+.contact_form form {
+    padding: 0;
+}
+.banner_button {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.banner_button a {
+    margin-right: 16px;
+}
+.banner_button a img {
+    max-width: 100%;
+}
+.banner_section{
+	min-height: 470px;
+	padding: 75px 0 0px 0;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	footer .footer-widget.pl-50 {
+    padding-left: 0;
+}
+.copyright_left span{
+	font-size: 16px;
+	margin-left: 10px;
+}
+.navbar{
+	padding: .8rem 1.5rem;
+}
+.search_form input{width: auto !important;}
+.search_form{margin-left: 10px;}
+
+}
+@media(min-width:992px){
+	.my-bboks{
+		display:none !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.m-player {
+    margin-top: 38px;
+}
+.media-players {
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.gb {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    border: 1px solid #082f54;
+    padding: 6px 10px;
+    width: 95%;
+    position: relative;
+    top: 9px;
+    border-radius: 4px;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 13px!important;
+    line-height: 1!important;
+    opacity: .75!important;
+    color: transparent !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url(../images/arrr.png) !important;
+    background-size: 12px 17px;
+    width: 12px !IMPORTANT;
+    height: 17px!important;
+    position: absolute!important;
+    top: -3px!important;
+}
+ .slick-next:before {
+    font-family: 'slick';
+    font-size: 13px;
+    line-height: 1;
+    opacity: .75;
+    color: transparent !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url(../images/arrr.png)!important;
+	transform:rotateZ(180deg)!important;
+    background-size: 12px 17px!important;
+    width: 12px !IMPORTANT;
+    height: 17px!important;
+    position: absolute!important;
+    top: -3px!important;
+}
+section.popular_book.ds {
+    padding-top: 0px;
+	padding-bottom:0px;
+}
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+   
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+.book-info h2 {
+    font-size: 41px;
+    color: #082f54;
+    line-height: 71px;
+    margin-bottom: 0;
+    font-family: 'Bitstream Vera Sans';
+    font-weight: 800;
+}
+.s1 {
+    padding-left: 0px !important;
+}
+.book-info p {
+    font-size: 17px;
+    color: #082f54;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Bitstream Vera Sans';
+}
+.col-lg-6.for-bd {
+    padding-left: 0px !important;
+	padding-right:0px !important
+}
+.inner-download {
+    float: right;
+}
+.book-info span {
+    font-weight: 300;
+	font-family: 'Bitstream Vera Sans';
+}
+.book-paragraph p {
+    font-size: 17px;
+    color: #082f54;
+    line-height: 30px;
+    font-family: 'Bitstream Vera Sans';
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.book-paragraph {
+    margin-top: 40px;
+}
+.summary {
+    background: #efefef;
+    padding: 40px 0;
+}
+.acc button {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    background: transparent;
+    border: none;
+    position: relative;
+	padding:0px;
+}
+.about-book {
+    position: relative;
+    float: right;
+}
+.summary-text a {
+    background: #082f54;
+    color: #fff;
+    font-weight: 700;
+    padding: 3px 16px;
+    font-family: 'Avenir Next';
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.where-from-buy {
+    clear: both;
+    text-align: center;
+    padding-top: 29px;
+}
+.aa {
+    width: 93% !important;
+    float: left;
+}
+.bbb  {
+    width: 93% !important;
+	float:right;
+}
+.where-from-buy h3 {
+    font-size: 17px;
+    color: #082f54;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Bitstream Vera Sans';
+}
+img {
+    max-width: 100%;
+}
+.buying-platform {
+    position: relative;
+}
+.buying-platform p {
+    margin-bottom: 0px;
+    background: #fff;
+    text-align: left;
+    padding: 6.6px 24px;
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}
+img.amazons-logo {
+    position: absolute;
+    top: 7px;
+    right: 24px;
+    width: 72px;
+}
+.amazons-logo.kindle {
+    width: 56px !important;
+    right: 39px !important;
+}
+.buying-platform.platform2 p {
+    background: transparent !important;
+}
+img.amazons-logo.audible {
+    width: 74px;
+    right: 22px;
+    top: 5px;
+}
+.new-one{
+	padding-left:30px !important;
+}
+.top-heading-summary h4 {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Bitstream Vera Sans';
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.information-type ul li {
+    display: inline;
+    padding: 0px 16px;
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+}
+.information-type img {
+    position: relative;
+    right: 5px;
+    width: 16px;
+    bottom: 1px;
+}
+img.audo {
+    right: 9px;
+    width: 14px;
+    bottom: 2px;
+}
+.about-book img {
+    box-shadow: 3px 7px 5px 0px #00000057;
+}
+.buying-book img {
+    box-shadow: 2px 3px 5px 0px #00000057;
+}
+.information-type {
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.information-type ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.download-app ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.download-app ul li img {
+    width: 123px;
+}
+.download-app ul li {
+    display:inline;
+	 padding-right: 7px;
+}
+.download-app p {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+.download-and-summary {
+    padding-top: 29px;
+}
+.inner-download ul li {
+    display: inline;
+    border: 1px solid #ddd;
+    padding: 10px 14px 10px 20px;
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+.inner-download ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.inner-download ul li img {
+    width: 14px;
+    position: relative;
+    right: 7px;
+    bottom: 2px;
+}
+.inner-download a {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 14px;
+	text-decoration:none !important;
+}
+.main-summary{
+	padding-right:79px !important;
+}
+.heading-book h3 {
+    color: #082f54;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Bitstream Vera Sans';
+}
+.summary-detail {
+    background: #fff;
+    padding: 70px 0px;
+}
+.change-font p {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 0px;
+    float: right;
+}
+.adding:before {
+    font-size: 11px !important;
+    font-weight: 600;
+    border: 2px solid #bac5cf;
+    padding: 8px;
+    border-radius: 23px;
+}
+.change-font i:before {
+    margin-left: 3px !important;
+}
+.substracting:before {
+    font-size: 11px !important;
+    font-weight: 600;
+    border: 2px solid #bac5cf;
+    padding: 8px;
+    border-radius: 23px;
+}
+.author-name {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.chapter-heading {
+    border-bottom: 1px solid #bac5cf;
+    padding-bottom: 8px;
+    margin-bottom: 9px;
+}
+.chapter-one p {
+    font-size: 17px;
+    color: #082f54;
+    line-height: 30px;
+    font-family: 'Bitstream Vera Sans';
+    font-weight: 400;
+}
+.chapter-one {
+    position: relative;
+   
+}
+button#myBtn:focus {
+    outline: none;
+}
+
+button#myBtn1:focus {
+    outline: none;
+}
+
+.chapter-one h3 {
+    color: #082f54;
+    font-size: 17px;
+    font-weight: 700;
+	font-family: 'Bitstream Vera Sans';
+    text-transform: uppercase;
+    margin-top: 31px;
+}
+.readon_new {
+    color: #828f99;
+    font-size: 17px;
+    background: #e6eaee;
+    border: 1px solid #d0d4d8;
+    padding: 7px 30px;
+    font-family: 'Proxima Nova Rg';
+    border: none;
+}
+.showhighlight:after {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    background: url(../images/gradient.png);
+    width: 100%;
+    height: 90px;
+    z-index: 9999 !important;
+    opacity: .6;
+}
+.show-more {
+    text-align: center;
+    margin-top: 17px;
+    position: relative;
+    z-index: 999999;
+}
+.more-books h3 {
+    color: #082f54;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Avenir Next';
+    text-transform: uppercase;
+    text-align: center;
+}
+.like1 p {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.like1 h4 {
+    color: #082f54;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Proxima Nova Rg';
+}
+.like1 img {
+	width:100%;
+	box-shadow: 3px 4px 5px 0px #00000057;
+}
+.more-books {
+    padding-left: 20px;
+}
+.like1 {
+    margin-bottom: 22px;
+}
+.like1 img {
+    width: 100%;
+    margin-bottom: 11px;
+}
+.more-books h3 {
+    color: #082f54;
+    font-size: 17px;
+    font-weight: 700;
+	font-family: 'Bitstream Vera Sans';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.chapter-detail{
+	margin-right: 28px;
+}
+.social-iconsssss ul li {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    display: inline;
+}
+.social-iconsssss ul li i:before {
+    color: #90a1b2;
+    font-size: 16px;
+    margin-left: 11px;
+}
+.join-us a {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}
+.join-us i:before {
+    color: #bac5cf !important;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.join-us {
+    float: right;
+}
+.social-iconsssss ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.social-follows {
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid #bac5cf;
+    padding-top: 17px;
+    margin-top: 31px;
+}
+/*.book-paragraph:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(../images/gradient.png);
+    width: 100%;
+    height: 98px;
+    opacity: .6;
+}*/
+.book-paragraph{
+	position:relative;
+}
+.book-paragraph a {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    position: relative;
+    z-index: 9999;
+    border-bottom: 1px solid #bac5cfc2;
+}
+.slider {
+    width: 100% !important;
+    margin: 100px auto;
+}
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1 !important;
+}
+.img.sl7 {
+    position: relative;
+    top: 13px;
+}
+img.sl1 {
+    position: relative;
+    top: 6px;
+}
+img.sl3 {
+    position: relative;
+    top: 6px;
+}
+img.sl4 {
+    position: relative;
+    top: 2px;
+}
+img.sl5 {
+    position: relative;
+    width: 109px !important;
+    bottom: 3px;
+}
+img.sl6 {
+    position: relative;
+    top: 6px;
+}
+img.sl7 {
+    position: relative;
+    top: 10px;
+}
+.slider {
+    margin: 40px auto 0px !important;
+}
+.logoss-slider {
+    background: #fff;
+    padding: 20px 0 44px;
+    border-bottom: 1px solid #bac5cf;
+}
+.slick-slide img {
+    margin: auto;
+    max-width: 100% !important;
+}
+.time img{margin: 0}
+p.available {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    margin-bottom: 0px;
+    position: relative;
+    top: 20px;
+}
+.inner-download p {
+    font-size: 16px;
+    color: #082f54;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}
+@media(max-width:991px){
+	.main-summary {
+    padding-right: 0px !important;
+}
+
+.slick-slide {
+    margin: 0px 20px !important;
+}
+section.popular_book.my-bboks {
+    padding-top: 40px;
+    border-top: 1px solid #bac5cfc2;
+}
+.more-books {
+    display: none;
+}
+.information {
+    text-align: center;
+}
+.my-one{
+	padding-left:0px !important;
+}
+.book-info h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.chapter-detail {
+    margin-right: 0px;
+}
+.social-iconsssss {
+    text-align: center;
+}
+.join-us {
+    float: inherit;
+    text-align: center;
+    margin: 20px 0;
+}
+.change-font {
+    display: none;
+}
+.heading-book h3 {
+    font-size: 19px;
+    text-align: center;
+}
+.author-name {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.inner-download {
+    text-align: center;
+	float:inherit;
+}
+.inner-download a {
+    font-size: 14px !important;
+}
+.for-bd {
+    border-top: 1px solid #bac5cf;
+    padding: 20px 16px 33px;
+    border-bottom: 1px solid #bac5cf;
+}
+.download-app {
+    text-align: center;
+}
+.about-book {
+    display: none;
+}
+.book1 {
+    display: block !important;
+    width: 70%;
+    float: inherit;
+    margin: auto;
+}
+.book-info p {
+    font-size: 17px;
+    color: #082f54;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Avenir Next Demi';
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+.chapter-heading {
+    border-bottom: none;
+}
+.summary-detail {
+    padding: 46px 0px;
+}
+.new-one {
+    padding-left: 16px !important;
+}
+.main-summary {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.inner-download ul li {
+    margin-right: 0px;
+}
+.book-info p {
+    padding: 4px 0px 0px 0;
+	max-width:67%;
+}
+.download-app ul li {
+    display: inline;
+    padding-right: 0px;
+    margin-right: 10px;
+}
+.buying-book img {
+    max-width: 93px !IMPORTANT;
+}
+.buying-platform p {
+    padding: 10.5px 16px;
+    font-size: 14px;
+}	
+img.amazons-logo {
+    top: 18px;
+    right: 14px;
+    width: 45px;
+}
+.amazons-logo.kindle {
+    width: 34px !important;
+    right: 25px !important;
+    top: 12px !important;
+}
+img.amazons-logo.audible {
+    width: 55px;
+    right: 7px;
+    top: 11px;
+}
+.book-paragraph p {
+    font-size: 17px;
+    color: #082f54;
+    line-height: 30px;
+    font-family: 'Avenir Next';
+    margin-bottom: 0;
+    font-weight: 400;
+    padding: 0px 16px;
+}
+.slick-next {
+    right: -25px !IMPORTANT;
+}
+.slider {
+    width: 82% !important;
+}
+.type2 {
+    display: none;
+}
+.information-type.type1 {
+    clear: both;
+    float: inherit;
+    text-align: center;
+    margin: 29px 0;
+}
+.acc {
+    text-align: center;
+}
+.inner-download ul li {
+    border: none !IMPORTANT;
+}
+p.available {
+    text-align: center;
+}
+.more-books {
+    padding-left: 0px;
+}
+.about-book img {
+    width: 100%;
+}
+.as {
+    text-align: left;
+    padding-left: 16px;
+}
+}
+@media(max-width:1199px) and (min-width:992px){
+	.download-app ul li img {
+    width: 105px;
+}
+
+.inner-download a {
+    font-size: 12px;
+}
+.inner-download ul li {
+    padding: 8px 5px 8px 11px;
+    position: relative;
+    bottom: 5px;
+}
+.for-full {
+    padding-right: 0px !important;
+}
+.heading-book h3 {
+    font-size: 19px;
+}
+}
+@media(min-width:767px){
+	.book1{
+		display:none;
+	}
+}
+@media(min-width:992px){
+	.information-type.type1 {
+    display: none;
+}
+.buying-sources {
+    margin-left: 20px;
+}
+.buying-platform p {
+    padding: 5.3px 24px;
+}
+.for-full {
+    padding-right: 0px !important;
+}
+}
+
+
+
+
+.header_1{background-image: url(../images/category_header/header_1.png); background-color:#3a6fa3;}
+.header_6{background-image: url(../images/category_header/header_6.png); background-color:#4fafc3;}
+.header_7{background-image: url(../images/category_header/header_7.png); background-color:#203447;}
+.header_8{background-image: url(../images/category_header/header_8.png); background-color:#6485a1;}
+.header_9{background-image: url(../images/category_header/header_9.png); background-color:#eeb63f;}
+.header_10{background-image: url(../images/category_header/header_10.png); background-color:#010a18;}
+.header_11{background-image: url(../images/category_header/header_11.png); background-color:#989898;}
+.header_12{background-image: url(../images/category_header/header_12.png); background-color:#090a19;}
+.header_13{background-image: url(../images/category_header/header_13.png); background-color:#faae00;}
+.header_14{background-image: url(../images/category_header/header_14.png); background-color:#2898b1;}
+.header_15{background-image: url(../images/category_header/header_15.png); background-color:#538ab8;}
+.header_16{background-image: url(../images/category_header/header_16.png); background-color:#44b5a2;}
+.header_18{background-image: url(../images/category_header/header_18.png); background-color:#80c6ca;}
+.header_19{background-image: url(../images/category_header/header_19.png); background-color:#599fca;}
+.header_20{background-image: url(../images/category_header/header_20.png); background-color:#9ea9aa;}
+.header_21{background-image: url(../images/category_header/header_21.png); background-color:#e7868f;}
+.header_22{background-image: url(../images/category_header/header_22.png); background-color:#4e0f37;}
+.header_23{background-image: url(../images/category_header/header_23.png); background-color:#0c0f3f;}
+.header_24{background-image: url(../images/category_header/header_24.png); background-color:#4ebef8;}
+.header_25{background-image: url(../images/category_header/header_25.png); background-color:#a2c6cc;}
+.header_26{background-image: url(../images/category_header/header_26.png); background-color:#66a14a;}
+.header_27{background-image: url(../images/category_header/header_27.png); background-color:#8faabb;}
+.header_28{background-image: url(../images/category_header/header_28.png); background-color:#58c4be;}
+.header_29{background-image: url(../images/category_header/header_29.png); background-color:#0d0f3f;}
+.header_30{background-image: url(../images/category_header/header_30.png); background-color:#a21b1e;}
+.header_31{background-image: url(../images/category_header/header_31.png); background-color:#191f23;}
+.header_32{background-image: url(../images/category_header/header_32.png); background-color:#c1ba96;}
+
+
+@media(max-width:500px){
+    .navbar{padding: .5rem 1rem;}
+    .slick-slide img {width: 100% !important;}
+    .category_banner{height: auto; background-size:contain; background-position: top center; }
+
+
+.header_1{background-image: url(../images/category_header/mob_header_1.png); background-color:#3a6fa3;}
+.header_6{background-image: url(../images/category_header/mob_header_6.png); background-color:#4fafc3;}
+.header_7{background-image: url(../images/category_header/mob_header_7.png); background-color:#203447;}
+.header_8{background-image: url(../images/category_header/mob_header_8.png); background-color:#6485a1;}
+.header_9{background-image: url(../images/category_header/mob_header_9.png); background-color:#eeb63f;}
+.header_10{background-image: url(../images/category_header/mob_header_10.png); background-color:#010a18;}
+.header_11{background-image: url(../images/category_header/mob_header_11.png); background-color:#989898;}
+.header_12{background-image: url(../images/category_header/mob_header_12.png); background-color:#090a19;}
+.header_13{background-image: url(../images/category_header/mob_header_13.png); background-color:#faae00;}
+.header_14{background-image: url(../images/category_header/mob_header_14.png); background-color:#2898b1;}
+.header_15{background-image: url(../images/category_header/mob_header_15.png); background-color:#538ab8;}
+.header_16{background-image: url(../images/category_header/mob_header_16.png); background-color:#44b5a2;}
+.header_18{background-image: url(../images/category_header/mob_header_18.png); background-color:#80c6ca;}
+.header_19{background-image: url(../images/category_header/mob_header_19.png); background-color:#599fca;}
+.header_20{background-image: url(../images/category_header/mob_header_20.png); background-color:#9ea9aa;}
+.header_21{background-image: url(../images/category_header/mob_header_21.png); background-color:#e7868f;}
+.header_22{background-image: url(../images/category_header/mob_header_22.png); background-color:#4e0f37;}
+.header_23{background-image: url(../images/category_header/mob_header_23.png); background-color:#0c0f3f;}
+.header_24{background-image: url(../images/category_header/mob_header_24.png); background-color:#4ebef8;}
+.header_25{background-image: url(../images/category_header/mob_header_25.png); background-color:#a2c6cc;}
+.header_26{background-image: url(../images/category_header/mob_header_26.png); background-color:#66a14a;}
+.header_27{background-image: url(../images/category_header/mob_header_27.png); background-color:#8faabb;}
+.header_28{background-image: url(../images/category_header/mob_header_28.png); background-color:#58c4be;}
+.header_29{background-image: url(../images/category_header/mob_header_29.png); background-color:#0d0f3f;}
+.header_30{background-image: url(../images/category_header/mob_header_30.png); background-color:#a21b1e;}
+.header_31{background-image: url(../images/category_header/mob_header_31.png); background-color:#191f23;}
+.header_32{background-image: url(../images/category_header/mob_header_32.png); background-color:#c1ba96;}
+}
+
+.mobi_search .autocomplete-container{height: 100%;}
+.mobi_search .input-container{height: 100%;}
+.mobi_search .autocomplete-container .input-container input{height: 100%;line-height: inherit;}
+
+
+
+
+
